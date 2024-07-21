@@ -1,3 +1,6 @@
+#ifndef COLOR_CODES_H
+#define COLOR_CODES_H
+
 #include <stdio.h>
 #include <assert.h>
 
@@ -15,3 +18,5 @@ typedef struct {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
 } ColorPair;
+
+#endif
