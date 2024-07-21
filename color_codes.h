@@ -16,8 +16,8 @@ const char* MinorColorNames[] = { "Blue", "Orange", "Green", "Brown", "Slate" };
 int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
 typedef struct {
-    enum MajorColor majorColor;
-    enum MinorColor minorColor;
+    MajorColor majorColor;
+    MinorColor minorColor;
 } ColorPair;
 
 #endif
