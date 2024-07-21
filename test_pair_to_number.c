@@ -3,7 +3,7 @@
 #include "get_pair_number_from_color.h"
 #include "test_pair_to_number.h"
 
-void testPairToNumber( enum MajorColor major, enum MinorColor minor, int expectedPairNumber)
+void testPairToNumber( MajorColor major, MinorColor minor, int expectedPairNumber)
 {
     ColorPair colorPair;
     colorPair.majorColor = major;
