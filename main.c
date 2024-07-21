@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include "color_codes.h"
 #include "test_number_to_pair.h"
 #include "test_pair_to_number.h"
 
