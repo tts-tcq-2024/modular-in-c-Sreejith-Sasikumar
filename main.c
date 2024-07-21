@@ -1,17 +1,8 @@
 #include "test_number_to_pair.h"
+#include "test_pair_to_number.h"
 
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors + colorPair->minorColor + 1;
-}
-
-void testPairToNumber( enum MajorColor major, enum MinorColor minor, int expectedPairNumber)
-{
-    ColorPair colorPair;
-    colorPair.majorColor = major;
-    colorPair.minorColor = minor;
-    int pairNumber = GetPairNumberFromColor(&colorPair);
-    printf("Got pair number %d\n", pairNumber);
-    assert(pairNumber == expectedPairNumber);
 }
 
 int main() {
